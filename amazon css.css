@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
@@ -701,3 +702,708 @@ input[type="radio"] {
     position: relative;
     left: 150px;
 }
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('BS_2Xvnqkm._CB792239020_.jpg'); /* Use your image file name */
+    background-size: cover;      /* Cover the entire background */
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    margin: 0;
+    padding: 0;    
+}
+
+.nav-logo{
+    background-image:url("amazon.-removebg-preview.png");
+    height: 50px;
+    width: 100px;
+    top: 5px;
+    background-size: cover;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+
+}   
+.nav-location{margin-left: 130px;
+    position: absolute;
+    top: 2px;
+    color: white;
+    width: 200px;
+    height: 45px;
+}
+.address{
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+i{
+    position: absolute;
+    left: 5px;
+}
+.nav-search{
+    margin-left: 350px;
+    position: absolute;
+    top: 5px;
+    
+}
+.behind-border{
+    width: 707.5px;
+    background-color: orange;
+    position: absolute;
+    height: 43.1px;
+    
+}
+select{
+    width:50px;
+    height: 45px;
+    position: relative;
+    top: -1px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px transparent gray;
+    border-top-left-radius: 2px;
+    outline: none;
+    border-bottom-left-radius: 2px;
+    text-transform: capitalize;
+
+}
+.input-search{
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    
+}
+input{
+    height: 43.2px;
+    width: 600px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: gray ;
+    font-size: 14px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 680px;
+    top: 15px;
+    width: 45px;
+    height: 40px;
+}
+.language-selector{
+    height: 100px;
+    width: 80px;
+    position: absolute;
+    left: 730px;
+    top: -3px;
+    padding-left: 10px;
+    
+}
+.flag-icon{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+span{
+    color: white;
+    position: relative;
+    top: 18px;
+    cursor: pointer;
+}
+.language-dropdown{
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: white;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 170px;
+    height: 100px;
+}
+#language{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+   
+}
+.eng{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: black;
+}
+.hindi{
+    position: absolute;
+    color: #0f1111;
+    top: 40px;
+    left: 50px;
+    text-transform: capitalize;
+
+}
+.malyalam{
+    position: absolute;
+    color: #0f1111;
+    top: 70px;
+    left: 50px;
+    text-transform: capitalize;
+
+}
+#language:hover{
+    background-color: #ffffff;
+}
+.language-selector:hover .language-dropdown {
+    display: block;
+    cursor: pointer;
+
+}
+input[type="radio"] {
+    transform: scale(0.3); /* Scale down the size */
+    display: block;
+}
+.sign-in{
+    position: relative;
+    left: 825px;
+    top: 5px;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    height: 35px;
+    width: 15vh;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.hello{
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+.account{
+    position: relative;
+    top: 5px;
+    font-size: 16px;
+}
+.customer-dropdown{
+    display: none;
+
+}
+.customer-dropdown:hover{
+    display: block;
+    cursor: pointer;
+    width: 100vh;
+}
+.return {
+    width: 14.4vh;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    top: -42px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    left: 965px;  
+}
+.order{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: -22px;
+    font-weight: bolder;
+}
+.cart{
+    position: relative;
+    left: 1085px;
+    top: -90px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    width: 8.9vh;
+    height: 35px;
+    padding-top: 10px;
+}
+.cart-count{
+    position: relative;
+    top: 8px;
+    left: 13px;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+.nav-menu{
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-list-ul li{
+    display: inline;
+    color: white;
+    font-size: 14.8px;
+    padding: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-list-ul {
+    list-style: none;
+
+}
+#nav-list-ul li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent; /* Transparent border for spacing */
+}
+#nav-list-ul li a:hover {
+    border: 1px solid white; /* Orange border on hover */
+}
+.appliances-container{
+    width: 360px;
+    height: 450px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 30px;
+    top: 350px;
+    border: #0f1111 1px solid;
+}
+.washing-machine{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    cursor: pointer;
+}
+.microwave{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    cursor: pointer;
+
+}
+.air-conditioner{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 250px;
+    cursor: pointer;
+    left: 20px;
+
+}
+.refrigerator{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    cursor: pointer;
+}
+.appliances-discount{
+    color: black;
+    display: block;
+    font-size: 21px;
+    padding-left: 4px;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+.wash{
+    position: relative;
+    top: 146px;
+    left: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: grey;
+    font-size: 12.4px;
+}
+.micro{
+    position: relative;
+    top: 120px;
+    left: 200px;
+    color: grey;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 12.4px;
+}
+.air{
+    position: relative;
+    top: 295px;
+    left: 20px;
+    color: grey;
+    font-weight: bolder;
+    font-size: 12.4px;
+    text-transform: capitalize;
+}
+.refri{
+    position: relative;
+    top: 265px;
+    left: 200px;
+    font-size: 12.4px;
+    color: grey;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.see{
+    position: relative;
+    top: 295px;
+    left: 20px;
+}
+.see a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.new-launch-container{
+    position: relative;
+    top: 250px;
+    left: 420px;
+    background-color: #ffffff;
+    width: 340px;
+    height: 450px;
+    border: #0f1111 1px solid;
+}
+.new-launch-img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+    cursor: pointer;
+}
+.new-launch{
+    color: black;
+    display: block;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: bolder;
+    position: relative;
+    top: -315px;
+}
+.all a{
+    position: relative;
+    top: 45px;
+    left: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.revamp-container{
+    position: absolute  ;
+    top: 350px;
+    left: 780px;
+    background-color: #ffffff;
+    width: 380px;
+    height: 450px;
+    border: #0f1111 1px solid;
+}
+.home-style{
+    color: black;
+    display: block;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.cushion{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 150px;
+    height: 120px;
+}
+.figurines{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    width: 150px;
+    height: 120px;
+    color: grey;
+    text-transform: capitalize  ;
+}
+.lighting{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    width: 150px;
+    height: 120px;
+}
+.storage{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    width: 150px;
+    height: 120px;
+}
+.cush{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.fig{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.light{
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.store{
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.explore a{
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#securely{
+    position: absolute;
+    top: 350px;
+    left: 1180px;
+    width: 330px;
+    height: 200px;
+    background-color: #ffffff;
+}
+.experience{
+    color: black;
+    display: block;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.sign-button button{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 310px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color:#ffce12;
+}
+#tobo a{
+    text-decoration: none;
+    position: absolute;
+    top: 580px;
+    left: 1200px;
+    width: 270px;
+    height: 220px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color:#ffffff;
+}
+.tobo-img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 50px;
+    background-color: gray;
+}
+.tobo{
+    color: black;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+.limited{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    color: black;
+    border: transparent;
+    background-color: red;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+.limited-text{
+    position: absolute;
+    top: 165px;
+    left: 50px;
+    color: red;
+    font-weight: bolder;
+    font-size: 11px;
+}
+.price{
+    position: absolute;
+    top: 185px;
+    left: 1px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.home-essential-container{
+    position: absolute;
+    top: 850px;
+    left: 30px;
+    width: 360px;
+    height: 450px;
+    background-color: #ffffff;
+    border: #0f1111 1px solid;
+}
+.under{
+    color: black;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.clean{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.shower{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.tool{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.wall{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.supplies{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.accessories{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.tools{
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.wallpapers{
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    color: grey;
+    text-transform: capitalize;
+    font-size: 12.4px;
+    font-weight: bolder;
+}
+.more a{
+    position: absolute;
+    top: 420px;
+    left: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.footer{
+    position: relative;
+    top: 1200px;
+    width: 1520px;
+    height: 200px;
+    background-color: #232f3e;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    position: relative;
+    left: 150px;
+}
+>>>>>>> 2f22b6a15f69c0e02ec93d55dd2d008690d6e8bb
