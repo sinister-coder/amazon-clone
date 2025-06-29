@@ -292,7 +292,7 @@ input[type="radio"] {
     background-color: #ffffff;
     position: absolute;
     left: 30px;
-    top: 350px;
+    top: 385px;
     border: #0f1111 1px solid;
 }
 .washing-machine{
@@ -387,7 +387,7 @@ input[type="radio"] {
 }
 .new-launch-container{
     position: relative;
-    top: 250px;
+    top: 285px;
     left: 420px;
     background-color: #ffffff;
     width: 340px;
@@ -423,7 +423,7 @@ input[type="radio"] {
 }
 .revamp-container{
     position: absolute  ;
-    top: 350px;
+    top: 385px;
     left: 780px;
     background-color: #ffffff;
     width: 380px;
@@ -516,7 +516,7 @@ input[type="radio"] {
 }
 #securely{
     position: absolute;
-    top: 350px;
+    top: 385px;
     left: 1180px;
     width: 330px;
     height: 200px;
@@ -546,7 +546,7 @@ input[type="radio"] {
 #tobo a{
     text-decoration: none;
     position: absolute;
-    top: 580px;
+    top: 610px;
     left: 1200px;
     width: 270px;
     height: 220px;
