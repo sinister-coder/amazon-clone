@@ -980,32 +980,57 @@ input[type="radio"] {
 }
 .back-to-top{
     position: absolute;
-    top: -50px;
+    top: 1605px;
     color: white;
     height: 50px;
-    width: 1525px;
-    background-color: #2162a1;
+    width: 1530px;
+    background-color: #232F3E;
     text-transform: capitalize;
     font-size: 12.4px;
     font-weight: bolder;
+    
 }
 .text{
     position: relative;
-    top: 40%;
     left: 50%;
+    font-size: 15px;
 }
-footer{
+.link{
     position: relative;
     top: 1000px;
-    width: 1520px;
+    width: 1530px;
     height: 200px;
-    background-color: #232f3e;
+    background-color: #1F2A37;
 }
-.footer-links li a{
+.link li a{
     text-decoration: none;
-    color: white;
-    font-size: 14px;
-    padding: 5px;
+    color: #DDDDDD;
+    font-size: 15px;
+    top: 50px;
     position: relative;
-    left: 150px;
+    left: 220px;
+}
+.get{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+hr{
+    border: 1px solid #DDDDDD;
+}
+#personalized{
+    position: relative;
+    top: 900px;
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;    
+    justify-content: center;
+    text-align: center;
+}
+#new-customer{
+    color: orange;
 }
