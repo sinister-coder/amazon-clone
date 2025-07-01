@@ -292,7 +292,7 @@ input[type="radio"] {
     background-color: #ffffff;
     position: absolute;
     left: 20px;
-    top: 385px;
+    top: 480px;
     border: #0f1111 1px solid;
 }
 .washing-machine{
@@ -388,7 +388,7 @@ input[type="radio"] {
 }
 .new-launch-container{
     position: relative;
-    top: 285px;
+    top: 380px;
     left: 400px;
     background-color: #ffffff;
     width: 340px;
@@ -425,7 +425,7 @@ input[type="radio"] {
 }
 .revamp-container{
     position: absolute  ;
-    top: 385px;
+    top: 480px;
     left: 760px;
     background-color: #ffffff;
     width: 370px;
@@ -519,7 +519,7 @@ input[type="radio"] {
 }
 #securely{
     position: absolute;
-    top: 385px;
+    top: 480px;
     padding-right: 5px;
     left: 1150px;
     width: 360px;
@@ -550,7 +550,7 @@ input[type="radio"] {
 #tobo a{
     text-decoration: none;
     position: absolute;
-    top: 610px;
+    top: 690px;
     left: 1200px;
     width: 270px;
     height: 220px;
@@ -600,7 +600,7 @@ input[type="radio"] {
 }
 .home-essential-container{
     position: absolute;
-    top: 850px;
+    top: 950px;
     left: 20px;
     width: 360px;
     height: 450px;
@@ -654,7 +654,7 @@ input[type="radio"] {
     text-transform: capitalize;
     font-size: 12.4px;
     font-weight: bolder;
-}
+} 
 .accessories{
     position: absolute;
     top: 210px;
@@ -693,7 +693,7 @@ input[type="radio"] {
 }
 .playstation-container{
     position: absolute;
-    top: 850px;
+    top: 950px;
     left: 400px;
     width: 340px;
     height: 450px;
@@ -786,7 +786,7 @@ input[type="radio"] {
 }
 .headphone-container{
     position: absolute;
-    top: 850px;
+    top: 950px;
     left: 760px;
     width: 370px;
     height: 450px;
@@ -884,7 +884,7 @@ input[type="radio"] {
 }
 .automotive-container{
     position: absolute;
-    top: 850px;
+    top: 950px;
     left: 1150px;
     width: 360px;
     height: 450px;
@@ -982,18 +982,22 @@ input[type="radio"] {
     position: absolute;
     top: 1605px;
     color: white;
-    height: 50px;
+    height: 100px;
     width: 1530px;
-    background-color: #232F3E;
+    background-color: #007185;
     text-transform: capitalize;
     font-size: 12.4px;
     font-weight: bolder;
-    
+    cursor: pointer;
 }
 .text{
     position: relative;
-    left: 50%;
+    left: 725px;
+    top: 25px;
     font-size: 15px;
+}
+.back-to-top:hover{
+    background-color: #005f73;
 }
 .link{
     position: relative;
@@ -1019,7 +1023,14 @@ input[type="radio"] {
     text-transform: capitalize;
     font-weight: bolder;
 }
-hr{
+.no-gradient{
+    position: relative;
+    top: 780px;
+    border: 1px solid #DDDDDD;
+}
+.no-gradient-2{
+    position: relative;
+    top: 930px;
     border: 1px solid #DDDDDD;
 }
 #personalized{
@@ -1032,5 +1043,35 @@ hr{
     text-align: center;
 }
 #new-customer{
-    color: orange;
+    color: black;
+    font-size: 12px;
+}
+.start-here{
+    color: #007185;
+}
+.personalized{
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    background-color:#ffce12;
+}
+.connect-links ul li a{
+    position: relative;
+    top: 830px;
+    left: 500px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.connect{
+    color: white;
+    position: relative;
+    top: 810px;
+    left: 495px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
 }
